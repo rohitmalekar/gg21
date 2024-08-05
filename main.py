@@ -25,8 +25,7 @@ col1, col2, col3 = st.columns(3)
 
 col1.markdown("## GG20")
 col1.markdown("In GG20, GrantsScope used conversational experience to help self-discovery of grnatees led by user inquiries.")
-gg20_url = "https://all-about-gg20.streamlit.app/"  
-col1.button("View app", on_click=open_url, args=(gg20_url,))
+col1.link_button("View app", "https://all-about-gg20.streamlit.app/")
 col1.image("https://grantsscope.xyz/wp-content/uploads/2024/04/screenshot-2024-04-29-at-2.26.44-pm.png")
 
 col1.markdown("In Gitcoin Citizens Round 3, GrantsScope utilized historical donor decisions to create personalized recommendations for donors.")
