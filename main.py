@@ -21,7 +21,7 @@ st.info(f"Time until launch: {days} days, {hours} hours, {minutes} minutes, {sec
 
 st.markdown("Check out [grantsscope.xyz](grantsscope.xyz) or the project's [Karma GAP page](https://gap.karmahq.xyz/project/grantsscope---grantee-discovery-using-llms) for the product journey over the last year!")
 
-st.markdown("###Previous examples:")
+st.markdown("### Previous examples:")
 st.markdown("In GG21, GrantsScope will combine previously experimented features using LLMs and clustering algorithms to offer one-click grantee recommendations to donors")
 col1, col2, col3 = st.columns(3)
 
