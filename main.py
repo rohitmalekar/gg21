@@ -19,7 +19,7 @@ minutes, seconds = divmod(remainder, 60)
 
 st.info(f"Time until launch: {days} days, {hours} hours, {minutes} minutes, {seconds} seconds")
 
-st.markdown("Check out [grantsscope.xyz](grantsscope.xyz) or the project's [Karma GAP page](https://gap.karmahq.xyz/project/grantsscope---grantee-discovery-using-llms) for the product journey over the last year!")
+st.markdown("Check out [grantsscope.xyz](https://grantsscope.xyz) or the project's [Karma GAP page](https://gap.karmahq.xyz/project/grantsscope---grantee-discovery-using-llms) for the product journey over the last year!")
 
 st.markdown("### Previous examples:")
 st.markdown("In GG21, GrantsScope will combine previously experimented features using LLMs and clustering algorithms to offer one-click grantee recommendations to donors")
