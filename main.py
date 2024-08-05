@@ -4,22 +4,6 @@ import datetime
 # Set page config
 st.set_page_config(page_title="Coming Soon", page_icon="🚀", layout="centered")
 
-# Custom CSS to style the app
-st.markdown("""
-<style>
-    .main {
-        background-color: #f0f2f6;
-    }
-    .stTitle {
-        color: #1e3a8a;
-        font-size: 3rem !important;
-    }
-    .stSubheader {
-        color: #374151;
-    }
-</style>
-""", unsafe_allow_html=True)
-
 # Main content
 st.title("🚀 GrantsScope for GG21 Coming Soon!")
 st.subheader("Launches on August 8th - within 1 day after donations begin.")
