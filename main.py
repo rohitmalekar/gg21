@@ -8,8 +8,6 @@ st.set_page_config(page_title="Coming Soon", page_icon="🚀", layout="centered"
 st.title("🚀 GrantsScope for GG21 - Coming Soon!")
 st.subheader("Launches on August 8th - within 1 day after donations begin.")
 
-st.markdown("Check out grantsscope.xyz for the product journey over the last year!")
-
 # Countdown timer
 launch_date = datetime.datetime(2024, 8, 7, 23, 59, 59)  # Set your launch date here
 current_time = datetime.datetime.now()
@@ -19,5 +17,6 @@ days = time_left.days
 hours, remainder = divmod(time_left.seconds, 3600)
 minutes, seconds = divmod(remainder, 60)
 
-st.write(f"Time until launch: {days} days, {hours} hours, {minutes} minutes, {seconds} seconds")
+st.info(f"Time until launch: {days} days, {hours} hours, {minutes} minutes, {seconds} seconds")
 
+st.markdown("Check out (grantsscope.xyz)[grantsscope.xyz] or the project's (Karma GAP page)[https://gap.karmahq.xyz/project/grantsscope---grantee-discovery-using-llms] for the product journey over the last year!")
