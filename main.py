@@ -25,7 +25,7 @@ st.title("🚀 GrantsScope for GG21 Coming Soon!")
 st.subheader("Launches on August 8th - within 1 day after donations begin.")
 
 # Countdown timer
-launch_date = datetime.datetime(2024, 08, 07, 23, 59, 59)  # Set your launch date here
+launch_date = datetime.datetime(2024, 8, 7, 23, 59, 59)  # Set your launch date here
 current_time = datetime.datetime.now()
 time_left = launch_date - current_time
 
