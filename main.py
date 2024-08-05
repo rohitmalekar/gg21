@@ -31,7 +31,7 @@ col1.link_button("View app", "https://all-about-gg20.streamlit.app/")
 col1.image("https://grantsscope.xyz/wp-content/uploads/2024/04/screenshot-2024-04-29-at-2.26.44-pm.png")
 
 col2.markdown("#### Gitcoin Citizens Round #3")
-col2.markdown("GrantsScope utilized historical donor decisions to create personalized recommendations for donors.")
+col2.markdown("GrantsScope utilized historical donor decisions to create personalized recommendations.")
 col2.link_button("View app", "https://gitcoin-cr3.streamlit.app/")
 col2.image("https://grantsscope.xyz/wp-content/uploads/2024/04/screenshot-2024-04-09-at-11.58.53-am.png")
 
