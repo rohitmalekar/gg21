@@ -17,7 +17,7 @@ days = time_left.days
 hours, remainder = divmod(time_left.seconds, 3600)
 minutes, seconds = divmod(remainder, 60)
 
-st.info(f"Time until launch: {days} days, {hours} hours, {minutes} minutes, {seconds} seconds")
+# st.info(f"Time until launch: {days} days, {hours} hours, {minutes} minutes, {seconds} seconds")
 
 st.markdown("Check out [grantsscope.xyz](https://grantsscope.xyz) or the project's [Karma GAP page](https://gap.karmahq.xyz/project/grantsscope---grantee-discovery-using-llms) for the product journey over the last year!")
 
