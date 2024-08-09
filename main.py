@@ -6,7 +6,7 @@ st.set_page_config(page_title="Coming Soon", page_icon="🚀", layout="centered"
 
 # Main content
 st.title("🚀 GrantsScope for GG21")
-st.subheader("Launches on August 8th")
+st.subheader("🛠️ We are testing and will be launching soon for GG21.")
 
 # Countdown timer
 launch_date = datetime.datetime(2024, 8, 7, 23, 59, 59)  # Set your launch date here
